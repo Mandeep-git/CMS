@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="currency-conversion-service" />
+        <module name="10-Oauth2JWT" />
+        <module name="CMS" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="netflix-zuul-api-gateway-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="10-Oauth2JWT" options="-parameters" />
+      <module name="CMS" options="-parameters" />
+      <module name="currency-conversion-service" options="-parameters" />
+      <module name="netflix-zuul-api-gateway-server" options="-parameters" />
+    </option>
+  </component>
+</project>
